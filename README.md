@@ -21,6 +21,8 @@
 
 ## Зависимости
 
+Разархивировать папку с набором обчующих и тестовых писем spam_ham_dataset.zip
+
 Перед запуском нужно установить библиотеки:
 
 ```bash
@@ -37,7 +39,10 @@ python -m spacy download en_core_web_sm
 
 Откройте Jupyter Notebook и выполните spam_classifier.ipynb по ячейкам:
 
+```bash
 jupyter notebook spam_classifier.ipynb
+
+```
 
 ## Результаты
 
